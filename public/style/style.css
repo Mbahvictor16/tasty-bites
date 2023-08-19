@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=REM&display=swap");
+
+:root {
+  --primary-color: orangered;
+}
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  background: #222;
+  color: #fff;
+  font-family: REM, sans-serif;
+  font-size: 1rem;
+}
+
+header {
+  background: var(--primary-color);
+  padding: 10px 20px;
+}
+
+.index div {
+  margin-bottom: 10px;
+  display: flex;
+  place-content: center;
+}
+
+main {
+  padding: 15px;
+}
+
+.link {
+  margin-top: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  padding: 6px 8px;
+  display: block;
+  width: 250px;
+  text-align: center;
+  border-radius: 6px;
+}
+
+#github-link {
+  background: #000;
+}
+
+#docs {
+  background: var(--primary-color);
+  margin-top: 25px;
+}
+
+.fa-github,
+.fa-file {
+  color: #fff;
+}
+
+code {
+  color: var(--primary-color);
+}
+
+#sample-response {
+  width: min(500px, 100%);
+  overflow: scroll;
+}
+
+#sample-response::-webkit-scrollbar {
+  width: 1px;
+}
+
+#sample-response img {
+  width: 1000%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.docs p,
+.docs div {
+  margin-block: 10px;
+}
+
+.docs h1,
+.docs h2,
+.docs h3,
+.docs h4 {
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
