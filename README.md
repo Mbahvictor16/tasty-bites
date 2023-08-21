@@ -18,7 +18,7 @@ name of food.
 
 ### Sample URL Request
 
-[http://localhost:3000/api/recipe](http://localhost:3000/api/recipe)
+[https://tasty-bites-8l2z.onrender.com/api/recipe](https://tasty-bites-8l2z.onrender.com/api/recipe)
 
 ```json
 {
